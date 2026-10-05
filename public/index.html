@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Aida Vladuta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Aida Vladuta</h1>
+
+        <div class="personal-info">
+            <p><strong>Nume:</strong> Vladuta</p>
+            <p><strong>Prenume:</strong> Aida</p>
+            <p><strong>Email:</strong> aida.vladuta@gmail.com</p>
+            <p><strong>Telefon:</strong> 0766347885</p>
+        </div>
+
+
+        <h2>Skills</h2>
+
+      <ul id="skillsList"></ul>
+
+
+        <h2>Adauga un skill</h2>
+
+        <form id="skillForm">
+
+            <input
+                type="text"
+                id="skillInput"
+                placeholder="Introdu un skill"
+            >
+
+            <button type="submit">
+                Adauga
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+
+        <hr>
+
+
+        <h2>Cauta o carte</h2>
+
+        <p>
+            Cautare dupa titlu folosind Open Library API
+        </p>
+
+        <div class="book-search">
+
+            <input
+                type="text"
+                id="bookInput"
+                placeholder="Ex: Harry Potter"
+            >
+
+            <button id="searchButton">
+                Cauta
+            </button>
+
+        </div>
+
+
+        <p id="loading"></p>
+
+        <p id="bookError"></p>
+
+        <div id="bookResults"></div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

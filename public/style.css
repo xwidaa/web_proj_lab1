@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    width: 80%;
+
+    max-width: 1000px;
+
+    margin: 25px auto;
+
+    background-color: white;
+
+    padding: 45px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    margin-top: 35px;
+}
+
+
+.personal-info {
+    margin-top: 20px;
+}
+
+
+.personal-info p {
+    margin-bottom: 20px;
+}
+
+
+ul {
+    padding-left: 30px;
+}
+
+
+form {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+input {
+    flex: 1;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #999;
+
+    border-radius: 4px;
+}
+
+
+button {
+    padding: 12px 25px;
+
+    cursor: pointer;
+
+    background-color: black;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+
+button:hover {
+    background-color: #333;
+}
+
+
+#message {
+    margin-top: 10px;
+}
+
+
+hr {
+    margin-top: 45px;
+
+    margin-bottom: 40px;
+
+    border: none;
+
+    border-top: 1px solid #ccc;
+}
+
+
+.book-search {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+.book {
+    border-bottom: 1px solid #ccc;
+
+    padding: 15px 0;
+}
+
+
+#loading {
+    margin-top: 20px;
+
+    font-style: italic;
+}
+
+
+#bookError {
+    margin-top: 20px;
+
+    color: red;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+
+        padding: 20px;
+    }
+
+
+    form {
+        flex-direction: column;
+    }
+
+
+    .book-search {
+        flex-direction: column;
+    }
+
+
+    button {
+        width: 100%;
+    }
+
+}
